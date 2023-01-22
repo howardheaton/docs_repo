@@ -16,12 +16,20 @@ import sys
 #Location of Sphinx files
 sys.path.insert(0, os.path.abspath('./../'))
 
+
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
+    'sphinx.ext.autodoc',
     'sphinx.ext.intersphinx',
+    'sphinx.ext.todo',
+    'sphinx.ext.coverage',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.ifconfig',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.githubpages',
+    'sphinx.ext.napoleon',
 ]
 
 intersphinx_mapping = {
